@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color:black;
+}
+h2{
+    color:gray;
+    text-align: center;
+}
+#selections
+{
+   height: 75px;
+   border-bottom-style: solid;
+   border-bottom-color: grey;
+   margin-bottom: 10px;
+}
+#cselected
+{
+    font-style: oblique;
+    text-align: center;
+}
+#blank{
+    margin-top: 30px;
+    width:100px;
+    height:30px;
+    margin-left: 375px;
+    font-style: normal;
+    border-style: solid;
+    border-color: grey;
+
+}
+#blank p{
+    text-align: center;
+    margin-top: 5px;
+}
+#rock
+{
+    margin-left: 150px;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+    background-color: greenyellow;
+}
+#rock:active
+{
+    background-color: blue;
+}
+#paper
+{
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+    background-color: greenyellow;
+}
+#paper:active{
+    background-color: blue;
+}
+#scissors
+{
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+    background-color: greenyellow;
+}
+#scissors:active{
+    background-color: blue;
+}
+#scores
+{
+    display: flex;
+    margin-left: 10px;
+}
+#yourscore
+{
+    background-color: khaki;
+    margin-left:10px;
+    width:300px;
+    text-align: center;
+}
+#computerscore
+{
+    margin-left: 250px;
+    width:300px;
+    background-color: khaki;
+    text-align: center;
+}
+#result p{
+    text-align: center;
+}
